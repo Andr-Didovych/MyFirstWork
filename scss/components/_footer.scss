@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 105px 220px 35px;
+
+    @media screen and (max-width: $bp-tablet-pl) {
+        padding: 105px 0 35px;
+    }
+
+    &__menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid #000000;
+        padding-bottom: 40px;
+        font: 400 $font-size14 $Gilroy;
+    }
+
+    &__icons {
+        display: flex;
+        gap: 25px;
+    }
+
+    &__emblems {
+        display: flex;
+        gap: 14px;
+        font: 400 $font-size14 $Gilroy;
+    }
+}

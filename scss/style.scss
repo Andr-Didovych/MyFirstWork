@@ -1,0 +1,23 @@
+@import './utils/reset';
+@import './utils/fonts';
+@import './utils/variables';
+@import './utils/mixins';
+
+
+
+@import './components/header.scss';
+@import './components/menu';
+@import './components/main';
+@import './components/hero-page.scss';
+@import './components/btn';
+@import './components/find';
+@import './components/_work.scss';
+@import './components/cards';
+
+@import './components/title-btn';
+@import './components/best-blog';
+@import './components/blog';
+@import './components/best-way';
+@import './components/content';
+@import './components/item-content';
+@import './components/footer';

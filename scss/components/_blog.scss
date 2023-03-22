@@ -1,0 +1,13 @@
+.blog {
+        text-align: center;
+
+    &__title {
+        @include font-blog-title(32px, 700, 1.2, black);
+        font-family: $Gilroy;
+    }
+    
+    &__text {
+        font: 400 18px/1.3 $Gilroy;
+        padding: 23px 0 71px 0;
+    }
+}

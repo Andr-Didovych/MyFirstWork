@@ -1,0 +1,24 @@
+.best-way {
+    display: flex;
+
+    @media screen and (max-width: $bp-tablet-pl) {
+        flex-wrap: wrap;
+    }
+
+    &__foto {
+        @media screen and (max-width: $bp-tablet-pl) {
+            width: 100vw;
+        }
+    }
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+        @media screen and (max-width: $bp-mobile) {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

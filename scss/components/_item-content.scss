@@ -1,0 +1,35 @@
+.item-content {
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+    
+    &__find {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 48px;
+        background: #FFFFFF;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05); 
+        min-height: 290px;
+        width: calc(50% - 30px / 2);
+
+        @media screen and (max-width: $bp-mobile-big) {
+            padding: 0 5px;
+        }
+
+        &--title {
+            @include font(24px, 700, 1.4, black);
+            font-family: $Gilroy;
+        }
+
+        &--text {
+            font: 400 18px/1.3 $Gilroy;
+            color: $black;
+        }
+
+        &--link {
+            font: 400 14px/1.4 $Gilroy;
+            color: $black;
+        }
+    }
+}

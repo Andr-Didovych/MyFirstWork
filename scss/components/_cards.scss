@@ -1,0 +1,36 @@
+.cards {
+    &__page{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+
+        @media screen and (max-width: $bp-tablet-pl) {
+            flex-wrap: wrap;
+        }
+    }
+    &__title {
+        font-size: $font-size20;
+        line-height:  $line-height24;
+        font-family:  $Gilroy ;
+        padding: 24px 24px 54px 24px;
+    }
+    &__link {
+        font-size: $font-size14;
+        line-height:  $line-height18;
+        font-family:  $Roboto ;
+        padding: 0 145px 24px 24px;
+    }
+    &__page--birthday {
+        box-shadow: 10px 10px 2px $FAFAFA ;
+        height: 436px;
+    }
+    &__anniversary {
+        background-color: $FAFAFA;
+    }
+    &__day {
+        background-color: $FAFAFA;
+    }
+    &__christmas {
+        background-color: $FAFAFA;
+    }
+}

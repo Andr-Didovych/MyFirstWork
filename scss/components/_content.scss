@@ -1,0 +1,28 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 78px;
+    width: 75%;
+    background-color: $black;
+    
+    @media screen and (max-width: $bp-tablet-pl) {
+        width: 100vw;
+        padding: 20px;
+    }
+
+    &__text {
+        font: 400 14px/1.4 $Gilroy;
+        color: $white;
+    }
+
+    &__title {
+        font: 700 48px/1.2 $Gilroy;
+        color: $white;
+    }
+
+    &__link {
+        font: 400 18px/1.3 $Gilroy;
+        color: $white;
+    }
+}

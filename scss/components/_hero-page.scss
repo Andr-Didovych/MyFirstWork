@@ -1,0 +1,22 @@
+.hero-page {
+        padding: 96px 135px 137px 135px;
+
+        @media screen and (max-width: $bp-mobile-big) {
+            padding: 96px 0 137px 0;
+        }
+        
+        &__text {
+            text-align: center;
+        }
+        
+    &__title {
+        font: 32px/1.38 $Gilroy;
+        color: $black;
+    }
+
+    &__subtitle {
+        font: 18px/1.24 $Gilroy;
+        color: $black;
+        padding: 23px 0 64px 0;
+    }
+}

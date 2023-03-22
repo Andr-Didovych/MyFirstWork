@@ -1,0 +1,14 @@
+@mixin font-blog-title($fs: 32px, $fw: 700, $lh: 1.2, $color: $black) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+    color: $black;
+}
+
+@mixin font($fs: 24px, $fw: 700, $lh: 1.4, $color: $black) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+    color: $black;
+}
+

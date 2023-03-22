@@ -1,0 +1,7 @@
+.best-blog {
+    padding: 80px 135px;
+
+    @media screen and (max-width: $bp-tablet) {
+        padding: 20px 0;
+    }
+}

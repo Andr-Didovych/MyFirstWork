@@ -1,0 +1,19 @@
+.main {
+    & .find {
+        min-width: 700px;
+
+        @media screen and (max-width: $bp-mobile-big) {
+           min-width: 0;
+        }
+    }
+    & .work {
+        min-width: 700px;
+
+        @media screen and (max-width: $bp-mobile-big) {
+            min-width: 0;
+         }
+    }
+    &__find {
+        display: flex;
+    }
+}

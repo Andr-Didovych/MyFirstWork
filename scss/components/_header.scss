@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 34px 36px 80px;
+
+    @media screen and (max-width: $bp-tablet-pl) {
+        padding: 20px 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+

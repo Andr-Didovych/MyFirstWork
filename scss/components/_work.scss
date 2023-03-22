@@ -1,0 +1,46 @@
+.work {
+    min-height: 700px;
+    display: flex;
+
+    @media screen and (max-width: $bp-tablet) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__title {
+        font: 32px/1.45 $Gilroy;
+        color: $black;
+    }
+    &__text {
+        font: 20px/1.28 $Gilroy;
+        color: $black;
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        padding: 164px 166px 104px 102px;
+        width: 50%;
+        background-color: $whitesmoke;
+
+        @media screen and (max-width: $bp-tablet) {
+            width: 100vw;
+            padding: 20px;
+        }
+    }
+
+    &__text {
+        padding: 36px 0 52px 0;
+    }
+    &__img {
+        width: 50%;
+
+        @media screen and (max-width: $bp-tablet) {
+            width: 100vw;
+        }
+    }
+    &--img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
